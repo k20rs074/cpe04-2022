@@ -12,15 +12,17 @@ button{
 }
 
 #btnA {
-    background-color: yellow
+   font-weight: bold;
     color: green;
-    font-weight: bold;
+    background-color: yellow
+   
 }
 
 #time{
 box-shadow: 5px,5px,5px;
 width: 50%;
 margin: 0 auto;
+content: second
 }
 
     #minuteStr {
