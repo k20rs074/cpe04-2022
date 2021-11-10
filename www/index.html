@@ -38,6 +38,10 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+
+         $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -160,6 +164,7 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
+        $('#btnD').prop('disabled', false);
         
     }
 
@@ -187,8 +192,12 @@
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
-        active = false;
-        
+      active = false;
+    }
+
+    // ButtonDがクリックされた時の処理
+    function btnDClick(e){
+          active = true;
     }
 
     // ButtonCがクリックされた時の処理
@@ -231,7 +240,12 @@
     <div id="time">Time</div>
     <button id="btnA">Start</button>  
     <button id="btnB">Stop</button>  
-    <button id="btnC">Set</button>  
+    <button id="btnC">Set</button>
+    <button id="btnD">Re</button> 
+    <label>
+  名前
+  <input type="text" name="nickname">
+</label> 
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
