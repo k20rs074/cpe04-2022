@@ -74,22 +74,22 @@ content: second
     
     #btnA {
         font-size: 20px;
-        position:absolute; top:380px; left:0%; width:25%; height:60px; 
+        position:absolute; top:380px; left:10%; width:38%; height:60px; 
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:25%; width:25%; height:60px; 
+        position:absolute; top:380px; left:52%; width:38%; height:60px; 
     }
 
-    #btnC {
+    /* #btnC {
         font-size: 20px;
         position:absolute; top:380px; left:75%; width:25%; height:60px; 
-    }
+    } */
 
     #btnD {
         font-size: 20px;
-        position:absolute; top:380px; left:50%; width:25%; height:60px; 
+        position:absolute; top:480px; left:10%; width:80%; height:50px; 
     }
     
     #minute {
